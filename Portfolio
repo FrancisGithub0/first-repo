@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+  </head>
+  <body>
+    <!-- 
+      Directions:
+        1. Create a DIV element to contain the page content
+        2. Inside your DIV, create an H1 tag that contains your name as the text
+        3. Below your H1 tag, create an H2 tag that contains the content text "Software Developer"
+        4. Below your H2 tag, create an HR tag which will make a horizontal line
+        5. Create a paragraph tag and put a sentence of your choice in it. (Suggestion: "My favorite thing about programming is _______")
+        6. Make the word "favorite" italicized
+        7. Make an image tag with the src attribute linked to a picture of yourself or of a placeholder image. Make sure you make an alt attribute too!
+        8. Create an H3 tag that says "About Me"
+        9. Create a paragraph tag that contains the "lorem ipsum" text. You will need to do a search for this text - it is long!
+        10. Create an H3 tag that says "My Projects"
+        11. Create an unordered list with 3 list items that say "Project 1", "Project 2", and "Project 3"
+        12. Add another H3 that contains "Contact Me" as text
+        13. Create a paragraph that contains a fake phone number, e.g., "Phone: (202) 555-1234"
+        14. Create a link tag (<a>) with a direction to mail to a fake email address. This is done by making a regular link, but in the href attribute, put mailto:fake@email.com (this opens up your email program with the TO field already filled out-try it!)
+
+        BONUS: Try one of the following ideas if you finish early
+          - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
+          - In your contact me section, make the text "Phone:" and "Email:" bolded
+     -->
+    <div>
+      <h1>F L D H</h1>
+      <h2>"Software Developer"</h2>
+      <hr>
+      <p>My <i>Favorite</i> thing about programming is learning!</p>
+      <img
+        alt="Gaurav learning"
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFRYVFRUYGBgZGRgSGBgYGBgRGRgYGBgZGRgYGBgcIS4lHB4rIRgYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHhISHjQhISE0NDQ0NDQ0NDQ0NDQ0NDE0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQxNP/AABEIAMIBAwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAIDBQYBB//EADkQAAIBAwIEAwYFBAEEAwAAAAECAAMEESExBRJBUQZhcRMigZGhwTJCUrHRFBVy8GIjguHxBxYz/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAIhEAAgIDAQEAAwEBAQAAAAAAAAECEQMSITFBEyJRMnEE/9oADAMBAAIRAxEAPwDAKIo4RETnEaXwvdY92aa8wyHJmB4PW5XA7z0Glylde0uLLXUZq2q8jnMuR4gVBtmZ7jo5X0lSXJ6zCcLdiNZV8RA9cR1DiqvjWZAQi3fBzM1hV2FnoJvERASdB8d5mbrjLvzYOBtga6d89ZHWvG5MD66yhaoAzD8JPvY3HqvcTtwx1jbJ9CVuAmdQRnUbFT6doBe3A1zsdM9j0zBritzeRH1H3EDesDlT1GJq5DoLWuSvK240+HSMpVsDlJ2gtKrzb7gEH4Rz7j4f79ZNjG1KmHHnoYx3wTGVfxfHM5UPvfGJsDtGt7whS3RXGPISrU6woalR2x/P3gBcmtlQTuNYMLo5+MirVBjA+MgD9flK2Jo2vBuLIigM3ny/x2m1srunUXKMD38p4kKzTYeFePhByOAP+Y3/AO4dfWc+TGnckug0bm5cZgNernSWdtbK6hgcg6gjXSdq8PAnI4sCgwYjVx1hl1Q5ZVVN5jL9QCfb5jHaRIJJiXGTZJGxnFIj6iyJUMaabHRY0bogTr3krmzOcrdjCQUH/wBV5zkD9ke05J2CikqcNLagSD+3sNxNZb2mdTO3NuAIQzyuhmNCFGB7GbK0vsoPSZriQEtvDic6+mk7YSsqID4hLEg40lSgJ6TZ8T4dzLI+FcEzg4zCcqAyq0z2lhbcOduk1p4IoIPLDEtFGgGJmpiMM745lPTaVN24I8xsfKXHGCEqvgaAkf8AjEzd1W1JHrOuMrihoFrVM7aEfvAnb+R/EIrakMBvoZCUhY0hK3vBu/7jEKZ9Qe2v2EgSgYqgO0WwUR1HySY0tHhCZKlo3aFoerBE3zDbYY17/tGpaNnYw+lw926ECJzSGoNlfWfJx8/4g71My5r8KYA6Slq0ipjjJMJRaJVkiqeh+sEAPcSVAe8og3ngjjns3FN29xtBucNPQ2uA08X4FrVQE4BInptGsQAMzlzOpEMMvFBlHXTWWVavpK9m1mEooREiST2ZhNsoJhVVBjaSougKwR3JOsuslC6SUtRsgVdZZW9LQSsq6TtK6YdY5dQIvP6YRSt/uJimWrNKDRQxtB7qlkSwInXTMyTpiMTfWHMZdcAteQYhr2o5toVbUgNps87XgIlq0wRiGcOtwq7RU6eZIH5YpZZJ2x0EvQzIKlk2MiFUKucZhLuJvD9lZLPIPGVi6VOcHCsdc/qmRuQTtkz0r/5FYFVGBgHm1OCT2A6zz4vp57ek7MX+elI5w2werkKM43lxS8NVDj3ZpvAPDh7MuRuZt0tVGwETts3UYpHntv4UPLqNfSV/EfCzLqBPWfZDtBbm1DdI9WPh5ba+HdMkSxp8EHabSpaAaYjDbgCDiylRlF4Oo6fOTLw8DpL16YkZSTqOzP3VoMTFcUtcMcT0e6TfExfGqOpOJUeESXDMMuOk5jqJNUWR4I0mxzkto+CCPWenWpZkViCCRtPMrUe8PWepIQtJMH8o3nJ/6HVEtED1IwNBXqkyJq2JgrbFqWqVAJKl0W0AlTRqFjiabhtqoHnHJOqRVUQrb6ZxBq+RNEUG0Y3Dw0yV+MTMhXqyJHzL7iPCdDM8aJRsTTGk3RUYphPLOznPFNtC9TRF8yVXGIEI1qmJ5qRAU7gyWg0ASpnaEI8bg34BdIwxI2p5OsbZ6iT1xgZnWscnHomTqgAg6N728rrniJGggtpcuWyTKdcJog8ZcHaqysvbA8v+R7Ty6omX5PPH13ns/FbktRcDflIz8J4wuRU17zpxyTRUT1rwlTC0UA6CaEEym8PLy0k8wDL2mIR6dTHok6ySUOMSCq81JA7hNYNWTENrMBgwC5uVxJbGkBusjedd4guZFFgrpKXitgHBPWaFxA6yxO0HGeY3tqUYgwBjnSbzj/DwyFgNRrML7MknA21PlNIytGE40+Els2GB856UtYMi410H7Tzyw4fUqHCIf2E3NtbuiKrbgAH4TLMk6IcWvRMkEZdYWc9Y+hb5OsztISB7fQzRcNqMekgtOHDeaKwtlUbSN02DKyvcMDkjSWFjxBSBrFxVF5DgazFvdOh02jpN8Jo2l/cKRM1VphmgFTijEayO0u/f1jhjqVscbTLT+jik3txOzoo03JXbG8Cq1dYTWqAwQDJnlxj0zJqTYkr3GOsYU0gFeg+Z1wjXRmj4ddgy2epldJk7QFZZJdEaZjlmrhLH3aAyOkNY7n5olSc35ujC2pcykdxPK+P2BoV+U/mOR6ZnqdJ5nPFnAHuXpum4yrem+ZvinT/6VE0fBh/00x+lcfKWrvyiZ6leC2pU0fJcIoPL+HIGD7x/iCXXiUjXlUA6DmZmJ8gBib7Rj6bt2aFbs5Pace6yp77TF3fjStTAKUU5CA2WRskZxkEttJuF+K2uebLtT5VLuikD3R+ZCMZ3GQdRnrFtyykaqqXdVblIBAyW9wbdzK+5RFAL1EA3AB5yexAXeUr3SZKtzjAaorO4qByAW5CAoK5xjeU3DxXuFFQuqqc7AszEd9uUeQkuTBuuIsOLeKKdIlFpux5eYM5Cg6gfhTJHXr0gvCeP1a7kLyKg5cgK2fez1JPbHxktXw0KiYICvy4LAkhjnOTnrKCpwCvSOVUNn9LZIx32lRlaJaZsLvjCo6IQNT7246Z0O3UQlayuAyNzKcjPYjdT5iUnCK9YAI9L3e/X45OsvOG26DmU5C6uOXGQfTtr9IrZSIbmhzqw6Y1P+9ZiLO2U3PJjCDJA3yw6sep1M39bt06f73mUp2pW802wW+BE0XjB+otUswq8q6dcjTPlD7JOdMtqQSp+ECtrhi5Vv1Hl8hLaxUBG/wAjM/ppmrTpW3NEAzlCqAdYS1I1H5VhVTg2BE42cNjqF0OkJS/I2lSloQcS7s7Lac80ogQXVwWG0zl5bsToMzavaCMtrRAckZixyewGJPCqpGeWBUabIxDDWeoVaa8vSYvjFJefTedqJQF7eKN9nFNKKJ/a64htuIM6EHaToT2nPUa4SGowMkFIHeBUmOYVz6R2DJeQCRlBI2r43nUuRMJxsYSiYid8TgqZEHrv2mEYWwCadaBeIeIMiIF/MTk/4gED6/Sco5zOcbtBVo42ZG5876Yx951RhQ4+lBdvc1ENWoXZQp0J5Rrt7oneAJSqDLpmpg/iBYY293Og9N5dcJql6YV9x7p6ZxpqINc8LCtzKeXGoGo19R0le+nWo0FJYU+TkYZXGOXOcSuXgFJX5qYZTyuu+QedGUZz5kQkVWOmD67yw4bQYuuDuwHfQan6hfrCqQJdCL3goVAfzAAg76iYu3ptbVPdHuMeXBYjl1/DjbI6E7ieq8SpZTHliYbiloCemdjnUMOzDt+0qa1YJbIkW90gdzc4yxjUs9MKdtlJwfQNsw+Rg13SKg82RnTB0kuSRSiT0OIDsZY2FzlxgaYbPpykfcSlsrVnOFHx6D1l5bWwQHXJO56Y7CCk2U4pEtZpUuuLhD3Vh9/tLKo8rLxsVaR88TSLIaDkpq1XI05V5mHmf/Us0p4QD4n4wW1TDHI3wM+UNqVBEyMzdJEnC6YVjLh3UKZnUuQDkGPe985lKUk6RzOIclIE5MKR+WVtG7BirXYPWJ/txhQTXvR3gb8RK6wR64zIKtUS440i1G0cv+OOfdUYlOtckkscyas41gRfWbLgKK8D/bCckCrFM/yFaGidJwKI5qbTnsGmyxpGVHMgRweRtRPedWge8NB8HOBAqj42hponvIK1me8WgcGJX842pW1kLW8elsIliQUiRK2JOl0MYPpIXowdkAl6CoPoIqhmGozv9j5zrPzeY8vvIeHPyny3Oe233+ktRbrn8K59MftObJBxfDsxyuPQFaQ9B1PaW3CUAIcjCgYUd/MwWtTA9doPxzibUEBKMQAAMfzFFU7LdM0d9eLjeZq4Adpnv/tyOpwGDAE8pH3lOviSsxJGBroP5M0blL4SnGP02S0wDjfr8ISLdSNCfnp8pV8Nru+HfA0xga7w/nKHyMTjzweyuh5o46yF2kz1NIBXq4iGcLQK+/En+Q/cQpHzA7hxzprt73y1+0qJEnwdacfDs6KhAUleYkHOCRoBttHm9My/hhizuOh1+s060Zq4o5pSbfTq1zOVLjzkj0sCVlwTFqhBKX5E5UvTBESSlItEI4L1hI6l8TG1acatOOh2Ma4YziE51hC0oyoMQa4CfQsVBFAfaTkz0NNjce1nGryI0TIHpGdVmRO1wO8cKw7wMUJKU0isAhLgRteuMbwJ2AkNVswsKHG6GZOtUSuRIXRTMSYEr1oK9WH+xgNwmDADmcggaZBHzl/ZXGUUnfGvqNDM6jSf+4chUHYn95GSNx4a45UzQBhzczHAGvlKrj/HqPIUBDFgRp003zKnxVdsFQKcBveODvM5bWvMeZ2wO2ZMUlG2XJtypFdcj3vcU4ORoM6SMUnAyVI7TTW9zQpnlUgnc6c31ktxdq2vLnXQDGkNn/B/hX1lRbcWq01UeWNs9YfbeJW2YZ+k6QSoIpH0bGRArrhjBC5UKd8A5j2f1BLG49TNXTuOZQw6jMrb+6kHA70NT5SdR+0A4jce+cHTtIUf2G5fqWtldjGpnLRuetnsrfx95SJWONJd8GXAZ/8Atl0Tdg3hizCPVzuCAPTWaJBrOJw8im1VMFc+8RuuvWQ2znM0aa9OdhFxT0lU9PWXjsMSsrbwaFZAKc4VkqmIiIYJVSMST1hBhEBKzQO4aTuZA4zEwBOYzsf7OKIZ6FiD1d4URB6gm5KBi0azx5SNdYhgNY6yJcmTVt41RJAmoUsywp0gJXU6mIUK+koTDgBiBXNKOS4iqVIABLRlb4gtzyq6/lOCPI9ZbGpGV151ZTsQRFQ1wq+MOHtabjdSAfqIbwrgdN0V2AZiM4PTymZuazBDRYHQ57bbSw4NxkovIx0Gx7TJxaN4STZp2tbdRhkUY7CBvXt00QKD30lXxK+Dqy56THJWZHGc6GFto0eSj0VVXc6wTi1wAhHcYldR4vlASPnKXiV8zsBzadokm30mU0CpccjEqfhJf6nnyTvBWXHrHUEZ2CqMsToBqSTLqzLagik5LBR3xPSOAeHHqqpfKUxjphn8wOg853wd4MWnirXAZzghNwvr3M9ARZ0Y8K9ZlKbXEBXHDU/p3oovKOUgAd9xn4ieehOUnPpPUxMH4oseSsxXZxzgDpnf6yssfpEWVLVoOTkx/KY5UnOaDFScZcQgLiRuI6FYHUg3LrDnSQMkVBYO6xgWFlJHywoLIeSKT8kUKCzYO8FcmSFolWWBC0HqtLH2cHqW8VBZWbmPengQhLfWTPb6RUFlGKuuIUrxr2p5pMlvChipydlip08SVxGBXtJEOZyssbTOsAIuK8JFVcjRhqPPyMyPsyjBWBBztPRaTyC/4WlcAEYbOAwGoJMTQJmNpVvf16/aR1aiAgkDIz0h/E/DdejU5QOfUgkaY9e0rK1hUY55Doe3QSGapkVepkYWBsuuTLuz4JXqZCJ5EnYfGang/glFIesec6Hl/Lnz7xxTZMn/AExHDOC1rhsIhx3IwB8Z6Z4Y8I07bDt779T0Hksv7a2VRhVAHYDENRJvCFdM5SJaYhCiQoscH6Dpue06TIlLY9ZR8Yt1q/5LnB+3pCrq9VfdU6ndv/PeQIJlKS8HFfTI3FqysRyn5RJbN+k/KbRAAwJUHuJdULOmyhlAxMaLbPM2tH/QflGmxf8AQflPVBYL+kTv9CvYQ1X9Czyd+Hvj8B+UFexf9DfKewmwT9IjTw5P0iFILPG3tn/Q3yMhakw6H5T2c8LT9IkbcGpn8o+UKFZ45yeU7PXv7DS/SPlOQoLPPjVGcZklOqveZ971Obf6w62dCc80EU1RfIJx1jaJHeS1I6EQqmsmakMRiQjOkKArXoaxLSh3s5xqcKCwI041lhLrIGEloLBqlMGQGliHMJC6xUFjUMsLEZZR/wAl/cSvBlpwH3q9Mf8AIH5a/aMC48WWBH/VX8J/H5efpKvhfh41cO+QnQbF/wCBNdf8RQEIwBUnlYnaFsoxoNOkPxqUrZf5Go0Uq2KoOVVAA6AYnVtpYukjKTdRRlsDCnHqse5CjJOBAq1QtqfdUdOp9f4lpCsdWuNDg4HU/wAQB7ksOVdF+p9ZHUqFzgDC9BJESZynfEXGP1nEp5hKp2+UciYkiJMyhLJ7euyHK/EdDG8mZ3kjE0Xdrdq/keoP27wnMzfL2nLm6rcvuEZ8+sWpJpOYTnOJ55d+ILlCQcAiCL4huD+aPUmz0w1BF7Ud55x/eKxH44xuL1f1mJ0gs9J9sO8U8u/vFX9ZiitBZll4K5OcGWFrwlwc4M0n9bTA6QevxZANI6SNLBlRlja9VxsYHc8dWUtfjmu8LCjRpWeWFvW7zFpxw7Zlrw7iobcwEzWUzmOYQG0ugesN5oxENRYG8OqGA1TEwG8pM4aBMnt1LEADJPSaSx4MAAanykMZmKfDWcgIMk/7rNXwLgq0iHY5cD4DIwcSwpUVXAUACDXty61FWmV5QrFyQW9ANf8AdYcXWNRsrvFFPnzyHDL8mnPB3HRXV6LE89LTXQsmwPw2PwlNf3jkseXJ6AaZPQTQ8D4NyEVXAFQjXHQH8suKt2i5JKNP0veSDXVRUGT8ANyewhTuAM/SCrbZPO+/0UdhNUzErwrP776AbL0H8mCXDljjpLC5fm0G0gWjJnO+IqMfrBkpQmnSkqUpIEmRREEkqpiPRI8LGAwLF5Yyew1Mnp0GY7EL1b7AQ1KYUYUfyfUxoTdFUab50Ru+TgA/WNKN1RvlLmczHROxmL60RxyupB6EjlPwmYv+HtSbup2P+9Z6RXRXGGAIlDf8OwpGeZD06r5jvLjwl0zHKTJGSNrIUYqf/Y7iSe10lSin4QisqKcmKFGKToh7FW5gleKKZM3Ka53le87FJA4stOE7xRRoTNdwreaBNoopZI19oDV3MUUTBF14VUcx0mnbeKKSikNrbr6iC3P4G9TFFJmXAz9l/wDun+Qm0EUU1x/5JyenZHdfgMUUZl9KwR6zkUzNSQR0UUAHLOmKKAMNO8fFFNTNinDFFACMyJtjFFGiTC8Z6ep/aVkUUuPgpeiiiijJP//Z"
+      width="700"
+      height="600"
+     <p>
+      <h3>About me</h3>
+     </p>
+      <p>rem ipsum dolor sit amet, consectetur adipiscing elit. Duis libero dui, vestibulum ac risus nec, lacinia sagittis mi. Aenean elementum consectetur egestas. Nunc tempus nunc id tortor tristique maximus. Proin vestibulum dignissim bibendum. Donec sit amet libero lorem. Nulla facilisi. Nulla facilisi. Cras sodales ipsum nec augue viverra, et imperdiet massa rhoncus. Praesent eget mauris placerat diam pellentesque interdum.
+
+Aliquam vel tempor metus, a euismod massa. Cras bibendum sem elementum ullamcorper hendrerit. In commodo, nibh sed volutpat lobortis, mi erat efficitur metus, ut blandit neque metus et urna. Quisque finibus in sapien eu tincidunt. Ut luctus fringilla nibh. Mauris vulputate dui eget feugiat hendrerit. Sed consectetur orci a laoreet scelerisque. Curabitur tempor nisi non neque laoreet, a interdum velit fringilla.
+
+Curabitur sit amet dui risus. Ut luctus turpis lectus. Aenean vulputate, lacus nec finibus bibendum, purus mauris dictum turpis, eu fermentum sem odio quis nisl. Etiam nisi nisl, vehicula non aliquam sit amet, mollis rhoncus magna. Mauris pulvinar neque nec lacus euismod, posuere maximus velit iaculis. Quisque eget metus vel enim dictum ullamcorper. Suspendisse elementum leo nec consectetur placerat. Nunc commodo nulla nec mi laoreet semper. Fusce justo justo, sagittis eget sagittis in, elementum ut eros.
+
+Donec odio lorem, lacinia sed viverra et, aliquam id lectus. Integer eu metus ornare diam eleifend elementum et quis neque. Aliquam eget odio neque. Aliquam vel tempor sapien, a condimentum lacus. Integer vitae maximus sapien, quis facilisis libero. Cras quis tellus faucibus, vehicula nisl eu, suscipit nulla. Suspendisse potenti. Sed ac mattis dui. Sed sed ultrices risus, porta mattis ante. Suspendisse vitae mauris imperdiet, pretium felis at, imperdiet quam. Integer vitae aliquam lorem, rutrum fermentum nunc. Sed accumsan tincidunt purus nec egestas. Donec dapibus condimentum aliquam.
+
+Mauris pulvinar eu erat at pulvinar. Sed a rhoncus elit, non faucibus quam. Pellentesque consequat massa in dolor condimentum, a varius velit euismod. Nulla ac metus vitae risus gravida interdum. Donec a pulvinar dui, id vestibulum libero. Quisque malesuada, libero vel tincidunt vestibulum, mi sapien tempus enim, quis fringilla odio purus at dolor. Nam maximus sapien ut maximus commodo. Vestibulum lacinia purus a facilisis vulputate. Donec enim leo, scelerisque id lacinia ut, pharetra vitae leo. Donec sed posuere justo. Fusce malesuada accumsan nisl, a scelerisque ligula rhoncus et. Ut condimentum orci eu nisl euismod, ac consectetur nisi pellentesque. Fusce et magna felis.</p>
+      <h3>My Projects</h3>
+      <ul>
+        <li>Project 1</li>
+        <li>Project 2</li>
+        <li>Project 3</li>
+      </ul>
+      <h3>Contact Me</h3>
+        <p>"Phone: (202) 555-1234"</p>
+      <a href="mailto:coolsunglass@email.com">
+        Contact us
+        </a>
+    </div>
+  </body>
+</html>
